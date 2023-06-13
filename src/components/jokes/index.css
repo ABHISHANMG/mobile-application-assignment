@@ -1,0 +1,79 @@
+.main-bg {
+    background-image: linear-gradient(#8874d9,#74c39a);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .heading {
+    font-family: italic;
+  }
+  
+  .select-category {
+    font-family: italic;
+    font-size: 18px;
+    padding: 5px;
+  }
+  
+  .heading-2 {
+    font-family: italic;
+    font-size: 30px;
+  
+  }
+  
+  .jokes-div {
+    border: solid 5px #61467d;
+    border-radius: 5px;
+    width: 400px;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  
+  .joke {
+    font-size: 18px;
+    font-family: italic;
+  }
+  .cat-unrules{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+.list-cat{
+  list-style-type: none;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.active-tab{
+  color: blue;
+  font-weight: bold;
+  background-color: #E6E6FA;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.joke-list{
+  list-style-type: none;
+  margin: 20px;
+}
+
+.jokes-unordered-container{
+   display: flex;
+   flex-wrap: wrap;
+}
+.type-joke{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+span{
+  color: #E84B4F;
+  font-size: 20px;
+  font-family: roboto;
+  font-weight: 500;
+}
