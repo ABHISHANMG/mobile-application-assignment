@@ -1,0 +1,20 @@
+
+.bg-container{
+    background-color: #E6E6FA;
+    background-size: cover;
+    min-height: 100vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}

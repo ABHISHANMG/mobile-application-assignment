@@ -1,0 +1,120 @@
+.header-container{
+    display: flex;
+    justify-content: space-around; 
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    align-items: center;
+    width: 100%;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+}
+
+.input-bar{
+    border-radius: 50px;
+    padding: 10px;
+    outline: none;
+    border: #171717 solid 1px;
+    width: 100%;
+}
+
+.search-btn{
+    background-color: #171717;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 50px;
+    color: white;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.logo-name{
+    font-size: 25px;
+}
+
+
+
+@media screen and (max-width:480px) {
+    .header-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .input-bar{
+        border-radius: 50px;
+        padding: 5px;
+        outline: none;
+        border: #171717 solid 1px;
+        width: 100%;
+    }
+    .search-btn{
+        background-color: #171717;
+        padding: 5px;
+        margin-left: 10px;
+        border-radius: 50px;
+        color: white;
+        border-width: 0px;
+        cursor: pointer;
+    }
+     
+    .drop-down-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+
+    }
+    
+}
+
+@media screen and (min-width:481px) and (max-width:768px)  {
+    .header-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .input-bar{
+        border-radius: 50px;
+        padding: 5px;
+        outline: none;
+        border: #171717 solid 1px;
+        width: 100%;
+    }
+    .search-btn{
+        background-color: #171717;
+        padding: 5px;
+        margin-left: 10px;
+        border-radius: 50px;
+        color: white;
+        border-width: 0px;
+        cursor: pointer;
+    }
+
+    .drop-down-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    
+}
+
+select{
+    cursor: pointer; 
+    padding: 5px;
+    border-radius: 50px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+
+.drop-down-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
